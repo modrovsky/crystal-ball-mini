@@ -130,6 +130,7 @@ For an LED matrix, the noun is conceptually a 32x32 grid — each `<rect>` in th
 With either a subgraph or Ponder endpoint configured, you can compare predicted traits against all ~1800+ historical nouns:
 
 ```js
+import 'dotenv/config';
 import { fetchAllSeeds, findMatches } from './src/historical.js';
 
 // Uses SUBGRAPH_ENDPOINT (first/skip) or PONDER_ENDPOINT (cursor) — whichever is set
