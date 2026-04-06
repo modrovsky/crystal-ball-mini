@@ -1,0 +1,15 @@
+{
+  "name": "crystal-ball-mini",
+  "version": "1.0.0",
+  "description": "Minimal Nouns Crystal Ball — predict the next Noun from the current block hash",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "predict": "node src/predict.js"
+  },
+  "dependencies": {
+    "@noundry/nouns-assets": "^1.17.0",
+    "dotenv": "^17.4.1",
+    "viem": "^2.30.5"
+  }
+}
